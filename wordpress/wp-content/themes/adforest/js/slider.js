@@ -1,0 +1,1 @@
+ (function($) { "use strict"; var slider = new MasterSlider(); slider.control('arrows'); slider.control('timebar' , {insertTo:'#masterslider'}); slider.control('bullets'); slider.setup('masterslider' , {width:1400,height:650,space:1,layout:'fullwidth',loop:true,preload:0,instantStartLayers:true,autoplay:true});})(jQuery);

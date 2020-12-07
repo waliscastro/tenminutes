@@ -1,0 +1,1 @@
+var FormDropzone={init:function(){Dropzone.options.myDropzone={init:function(){this.on("addedfile",function(n){var e=Dropzone.createElement("<button class='btn btn-sm btn-block'>Remove file</button>"),t=this;e.addEventListener("click",function(e){e.preventDefault(),e.stopPropagation(),t.removeFile(n)}),n.previewElement.appendChild(e)})}}}};

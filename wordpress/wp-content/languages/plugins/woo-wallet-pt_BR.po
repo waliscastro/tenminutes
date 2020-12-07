@@ -1,0 +1,822 @@
+# Translation of Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release) in Portuguese (Brazil)
+# This file is distributed under the same license as the Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2018-05-17 15:41:52+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: pt_BR\n"
+"Project-Id-Version: Plugins - TeraWallet &#8211; For WooCommerce - Stable (latest release)\n"
+
+#: includes/class-woo-wallet-admin.php:731
+msgid "Wallet Balance"
+msgstr "Saldo da carteira"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:171
+msgid "Commission received for order id "
+msgstr "Comissão recebida por ID do pedido"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:166
+msgid "Order %d payment Auto paid via Wallet"
+msgstr "Encomendar %d pagamento pago automáticamente via Wallet"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:116
+msgid "Order %s payment completed"
+msgstr "Pagamento da encomenda %s concluído"
+
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:110
+msgid "Something went wrong and the order can not be processed!"
+msgstr "Algo deu errado e a ordem não pode ser processada!"
+
+#: includes/class-woo-wallet-frontend.php:173
+msgid "Please enter 3 or more characters"
+msgstr "Por favor digite 3 ou mais caracteres"
+
+#: includes/class-woo-wallet-frontend.php:171
+msgid "No results found"
+msgstr "Nenhum resultado encontrado"
+
+#: includes/class-woo-wallet-frontend.php:170
+msgid "Please enter a valid email address"
+msgstr "Por favor digite um e-mail valido"
+
+#: includes/class-woo-wallet-frontend.php:168
+msgid "Previous"
+msgstr "Anterior"
+
+#: includes/class-woo-wallet-frontend.php:167
+msgid "Next"
+msgstr "Próximo"
+
+#: includes/class-woo-wallet-frontend.php:166
+msgid "Last"
+msgstr "Último"
+
+#: includes/class-woo-wallet-frontend.php:165
+msgid "First"
+msgstr "Primeiro"
+
+#: includes/class-woo-wallet-frontend.php:161
+msgid "Showing %1s to %2s of %3s entries"
+msgstr "Mostrando %1s  a %2s de posts de %3s"
+
+#: includes/class-woo-wallet-frontend.php:160
+msgid "Show %s entries"
+msgstr "Mostrando %s posts"
+
+#: includes/class-woo-wallet-frontend.php:159
+msgid "No transactions available"
+msgstr "Nenhuma transação disponível"
+
+#: includes/class-woo-wallet-payment-method.php:151
+#: includes/class-woo-wallet-ajax.php:52 includes/class-woo-wallet-ajax.php:118
+msgid "Wallet refund #"
+msgstr "Reembolso de carteira #"
+
+#: includes/api/class-woo-wallet-rest-controller.php:32
+#: includes/api/class-woo-wallet-rest-controller.php:56
+#: includes/api/class-wc-rest-woo-wallet-controller.php:44
+#: includes/api/class-wc-rest-woo-wallet-controller.php:84
+msgid "Unique identifier for the resource."
+msgstr "Identificador exclusivo para o recurso."
+
+#: templates/wc-endpoint-wallet.php:80
+msgid "(Email)"
+msgstr "(E-mail)"
+
+#: includes/class-woo-wallet-wallet.php:178
+msgid "Cashback for #%s has been debited upon cancellation"
+msgstr "Crédito para # %s foi debitado no cancelamento"
+
+#: includes/class-woo-wallet-wallet.php:169
+msgid "Wallet amount %s has been credited to customer upon cancellation"
+msgstr "O valor da carteira %s foi creditado ao cliente após o cancelamento"
+
+#: includes/class-woo-wallet-wallet.php:168
+msgid "Your order with ID #%s has been cancelled and hence your wallet amount has been refunded!"
+msgstr "Seu pedido com ID #%s foi cancelado e, portanto, o valor da sua carteira foi reembolsado."
+
+#: includes/class-woo-wallet-wallet.php:155
+msgid "%s paid through wallet"
+msgstr "%s pago com carteira"
+
+#: includes/class-woo-wallet-payment-method.php:67
+msgid "This controls the title which the user sees during checkout."
+msgstr "Isso controla o título que o usuário vê durante o checkout."
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:70
+msgid "Commission received for commission id "
+msgstr "Comissão recebida por id de comissão"
+
+#: includes/class-woo-wallet-wallet.php:128
+msgid "Wallet credit through cashback #"
+msgstr "Crédito da carteira através de devolução de fundos #"
+
+#: includes/class-woo-wallet-wallet.php:114
+msgid "Wallet credit through purchase #"
+msgstr "Crédito da carteira através da compra #"
+
+#: includes/class-woo-wallet-settings.php:86
+msgid "Credit Options"
+msgstr "Opções de crédito"
+
+#: includes/class-woo-wallet-payment-method.php:121
+#: includes/class-woo-wallet-payment-method.php:169
+#: includes/class-woo-wallet-wallet.php:153
+msgid "For order payment #"
+msgstr "Por ordem de pagamento #"
+
+#: includes/class-woo-wallet-frontend.php:473
+msgid "Please <a href=\"%s\">log in</a> to avail %s cashback from this order."
+msgstr "Por favor <a href=\"%s\">entre</a> para avaliar %s a devolução de fundos dessa ordem."
+
+#. translators: 1: user_login, 2: user_email
+#: includes/class-woo-wallet-ajax.php:161
+#: includes/class-woo-wallet-ajax.php:182
+msgctxt "user autocomplete result"
+msgid "%1$s (%2$s)"
+msgstr "%1$s (%2$s)"
+
+#: includes/class-woo-wallet-admin.php:270
+msgid "to customer wallet"
+msgstr "para carteira do cliente"
+
+#: includes/class-woo-wallet-admin.php:157
+#: includes/class-woo-wallet-admin.php:159
+msgid "Woo Wallet"
+msgstr "Woo Wallet"
+
+#: templates/wc-endpoint-wallet.php:95
+msgid "Proceed to transfer"
+msgstr "Prossiga para transferir"
+
+#: templates/wc-endpoint-wallet.php:90
+msgid "What's this for"
+msgstr "Isso é para"
+
+#: templates/wc-endpoint-wallet.php:78
+msgid "Select whom to transfer"
+msgstr "Selecione para quem transferir"
+
+#: includes/class-woo-wallet-settings.php:142
+msgid "If checked user will be able to transfer fund to another user."
+msgstr "Se marcado, o usuário poderá transferir fundos para outro usuário."
+
+#: includes/class-woo-wallet-settings.php:141
+msgid "Allow Wallet Transfer"
+msgstr "Habilitar transfêrencia de crédito"
+
+#: includes/class-woo-wallet-frontend.php:359
+msgid "Entered amount is greater than current wallet amount."
+msgstr "O valor inserido é maior que o valor atual da carteira."
+
+#: includes/class-woo-wallet-frontend.php:353
+msgid "Invalid user"
+msgstr "Usuário inválido"
+
+#: templates/wc-endpoint-wallet.php:30
+msgid "Wallet transfer"
+msgstr "Transferir crédito"
+
+#: templates/wc-endpoint-wallet.php:56
+msgid "Balance"
+msgstr "Saldo"
+
+#: templates/wc-endpoint-wallet-transactions.php:23
+msgid "Current balance :"
+msgstr "Saldo atual :"
+
+#: templates/emails/user-new-transaction.php:26
+#: templates/emails/user-new-transaction.php:29
+#: templates/emails/plain/user-new-transaction.php:24
+#: templates/emails/plain/user-new-transaction.php:27
+msgid "Current wallet balance is"
+msgstr "O saldo atual da carteira é"
+
+#: templates/emails/user-new-transaction.php:26
+#: templates/emails/plain/user-new-transaction.php:24
+msgid "has been credited to your wallet."
+msgstr "foi creditado na sua carteira."
+
+#: templates/emails/user-new-transaction.php:26
+#: templates/emails/user-new-transaction.php:29
+#: templates/emails/plain/user-new-transaction.php:24
+#: templates/emails/plain/user-new-transaction.php:27
+msgid "Thank you for using your wallet."
+msgstr "Obrigado por usar sua carteira."
+
+#: includes/class-woo-wallet-settings.php:129
+msgid "The maximum amount needed for wallet top up"
+msgstr "A quantia máxima necessária para o carregamento da carteira"
+
+#: includes/class-woo-wallet-settings.php:128
+msgid "Maximum Topup Amount"
+msgstr "Quantidade máxima de recarga"
+
+#: includes/class-woo-wallet-settings.php:121
+msgid "Minimum Topup Amount"
+msgstr "Valor mínimo de recarga"
+
+#: includes/class-woo-wallet-frontend.php:304
+#: includes/class-woo-wallet-frontend.php:376
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: includes/class-woo-wallet-frontend.php:298
+msgid "Wallet top up amount should be between %s and %s"
+msgstr "O valor de recarga da carteira deve estar entre %s e %s"
+
+#: includes/class-woo-wallet-frontend.php:292
+msgid "Wallet top up amount should be less than %s"
+msgstr "O valor de recarga da carteira deve ser menor que %s"
+
+#: includes/class-woo-wallet-frontend.php:286
+msgid "The minimum amount needed for wallet top up is %s"
+msgstr "O valor mínimo necessário para a recarga da carteira é %s"
+
+#: includes/class-woo-wallet-admin.php:269
+#: includes/class-woo-wallet-admin.php:778
+msgid "Refund"
+msgstr "Reembolso"
+
+#: includes/class-woo-wallet-settings.php:122
+msgid "The minimum amount needed for wallet top up"
+msgstr "A quantia mínima necessária para o carregamento da carteira"
+
+#: includes/class-woo-wallet-payment-method.php:118
+msgid "Your wallet balance is low. Please add %s to proceed with this transaction."
+msgstr "Seu saldo da carteira está baixo. Por favor, adicione %s para prosseguir com esta transação."
+
+#: includes/class-woo-wallet-payment-method.php:118
+msgid "Payment error: "
+msgstr "Erro de pagamento:"
+
+#: templates/woo-wallet-partial-payment.php:27
+msgid "%s will be debited from your wallet and %s will be paid through other payment method"
+msgstr "%s será debitado da sua carteira e %s será pago através de outro método de pagamento"
+
+#: templates/woo-wallet-partial-payment.php:32
+msgid "If checked %s will be debited from your wallet and %s will be paid through other payment method"
+msgstr "Se marcado, %s será debitado da sua carteira e %s será pago através de outro método de pagamento"
+
+#: includes/class-woo-wallet-settings.php:226
+msgid "If checked minimum cashback amount will be applied on product category cashback calculation."
+msgstr "Se marcado, será aplicado o valor mínimo de devolução de fundos no cálculo de devolução de fundos da categoria do produto."
+
+#: includes/class-woo-wallet-settings.php:225
+msgid "Allow Minimum cashback"
+msgstr "Permitir reembolso mínimo"
+
+#: includes/class-woo-wallet-settings.php:212
+msgid "Enter applicable minimum cart amount for cashback"
+msgstr "Insira o valor mínimo aplicável do carrinho para o reembolso"
+
+#: includes/class-woo-wallet-settings.php:211
+msgid "Minimum Cart Amount"
+msgstr "Valor mínimo do carrinho"
+
+#: includes/class-woo-wallet-settings.php:191
+msgid "Product category wise"
+msgstr "Categoria de produto sensata"
+
+#: includes/class-woo-wallet-frontend.php:667
+msgid "Cashback: %s"
+msgstr "Devolução de fundos: %s"
+
+#: includes/class-woo-wallet-frontend.php:652
+msgid "Coupon code applied successfully as cashback."
+msgstr "Código de cupom aplicado com sucesso como reembolso."
+
+#: includes/class-woo-wallet-admin.php:630
+#: includes/class-woo-wallet-frontend.php:123
+msgid "Wallet Transactions"
+msgstr "Transações da Carteira"
+
+#: includes/class-woo-wallet-admin.php:641
+msgid "Wallet endpoints"
+msgstr "Ponto de destino da Carteira"
+
+#: includes/class-woo-wallet-admin.php:623
+msgid "Endpoint for the \"My account &rarr; My Wallet\" page."
+msgstr "Ponto de Destino para a página \"My account &rarr; My Wallet\"."
+
+#: includes/class-woo-wallet-admin.php:631
+msgid "Endpoint for the \"My account &rarr; View wallet transactions\" page."
+msgstr "Ponto de destino para a página \"My account &rarr; View wallet transactions\"."
+
+#: includes/class-woo-wallet-admin.php:643
+msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
+msgstr "Endpoints são adicionados a URL de sua página para manipular ações específicas nas páginas de conta. Eles devem ser únicos e podem ser deixados em branco para desabilitar o ponto final."
+
+#: includes/class-woo-wallet-admin.php:306
+msgid "Adjust Balance"
+msgstr "Ajustar Saldo"
+
+#: includes/class-woo-wallet-admin.php:320
+msgid "Enter Amount"
+msgstr "Coloque Quantia"
+
+#: includes/class-woo-wallet-admin.php:332
+msgid "Select payment type"
+msgstr "Selecione tipo de pagamento"
+
+#: includes/class-woo-wallet-admin.php:409
+msgid "An error occurred please try again"
+msgstr "Um erro ocorreu. Por favor tente novamente"
+
+#: includes/class-woo-wallet-settings.php:218
+msgid "Maximum Cashback Amount"
+msgstr "Quantia Máxima para Devolução de Fundos"
+
+#: includes/class-woo-wallet-settings.php:219
+msgid "Enter maximum cashback amount"
+msgstr "Coloque a quantia máxima para devolução de fundos"
+
+#: includes/class-woo-wallet-settings.php:370
+msgid "Mini wallet display location"
+msgstr "Exibição da localização da mini carteira"
+
+#: includes/class-woo-wallet-frontend.php:578
+#: includes/class-woo-wallet-frontend.php:600
+msgid " Cashback"
+msgstr " Devolução de Fundos"
+
+#: includes/class-woo-wallet-admin.php:570
+msgid "Apply as cashback"
+msgstr "Usar como devolução de fundos"
+
+#: includes/class-woo-wallet-admin.php:571
+msgid "Check this box if the coupon should apply as cashback."
+msgstr "Marque essa caixa se o cupom deve ser usado como devolução de fundos."
+
+#: includes/class-woo-wallet-admin.php:599
+msgid "If you like %1$s please leave us a %2$s rating. A huge thanks in advance!"
+msgstr "Se você gostou do %1$s por favor deixe-nos uma %2$s avaliação. Um muito obrigado adiantado!"
+
+#: includes/class-woo-wallet-admin.php:599
+msgid "Thanks :)"
+msgstr "Obrigado :)"
+
+#: includes/class-woo-wallet-wallet.php:139
+msgid "Wallet credit through cashback by applying coupon"
+msgstr "Crédito da carteira através de devolução de fundos por submissão de cupom"
+
+#: includes/class-woo-wallet-admin.php:288
+msgid "Search Users"
+msgstr "Procurar Usuários"
+
+#: includes/class-woo-wallet-settings.php:136
+msgid "If a purchase requires more balance than you have in your wallet, then if checked the wallet balance will be deduct first and the rest of the amount will need to be paid."
+msgstr "Se uma compra precisar de mais saldo do que o possuído em sua carteira, caso marcado, o saldo em carteira será deduzido primeiro e o resto da quantia precisará ser pago."
+
+#: includes/class-woo-wallet-settings.php:337
+#: includes/class-woo-wallet-settings.php:348
+msgid "Define whether or not the rechargeable Product is taxable."
+msgstr "Definir se o produto recarregável é taxado ou não."
+
+#: includes/class-woo-wallet-settings.php:340
+msgid "Taxable"
+msgstr "Taxável"
+
+#: includes/class-woo-wallet-settings.php:341
+msgctxt "Tax status"
+msgid "None"
+msgstr "Nenhum"
+
+#: includes/class-woo-wallet-settings.php:135
+msgid "Auto deduct wallet balance for partial payment"
+msgstr "Deduzir automaticamente saldo da carteira para pagamento parcial"
+
+#: includes/class-woo-wallet-settings.php:336
+msgid "Rechargeable Product Tax status"
+msgstr "Status de taxa do produto recarregável"
+
+#: includes/class-woo-wallet-settings.php:347
+msgid "Rechargeable Product Tax class"
+msgstr "Classe de taxa do produto recarregável"
+
+#: includes/class-woo-wallet-settings.php:351
+msgid "Choose a tax class for rechargeable product. Tax classes are used to apply different tax rates specific to certain types of product."
+msgstr "Escolha uma classe de taxa do produto recarregável. Classes de taxa são usadas para aplicar diferentes avaliações para a taxa de certos tipos de produto."
+
+#: includes/class-woo-wallet.php:227
+msgid "View Wallet settings"
+msgstr "Ver configurações da carteira"
+
+#: includes/class-woo-wallet-payment-method.php:98
+msgid " | Current Balance: <strong>%s</strong>"
+msgstr " | Saldo Atual: <strong>%s</strong>"
+
+#: includes/class-woo-wallet-payment-method.php:173
+msgid "Insufficient funds in customer wallet"
+msgstr "Saldo insuficiente na carteira do cliente"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:29
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:48
+msgid "New transaction has been initiated"
+msgstr "Uma nova transação foi iniciada"
+
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp-gateway.php:42
+msgid "Invalid payment method"
+msgstr "Método de pagamento inválido"
+
+#: templates/wc-endpoint-wallet.php:25
+msgid "Wallet topup"
+msgstr "Recarga de Carteira"
+
+#: templates/wc-endpoint-wallet.php:35
+msgid "Transactions"
+msgstr "Transações"
+
+#: templates/wc-endpoint-wallet.php:119
+msgid "No transactions found"
+msgstr "Nenhuma transação encontrada"
+
+#: templates/wc-endpoint-wallet.php:44 includes/class-woo-wallet-admin.php:622
+#: includes/class-woo-wallet-admin.php:720
+#: includes/class-woo-wallet-frontend.php:120
+#: includes/class-woo-wallet-frontend.php:207
+msgid "My Wallet"
+msgstr "Minha Carteira"
+
+#: templates/wc-endpoint-wallet.php:72 includes/class-woo-wallet-widgets.php:54
+msgid "Add"
+msgstr "Adicionar"
+
+#: includes/admin/class-woo-wallet-balance-details.php:27
+#: includes/admin/class-woo-wallet-transaction-details.php:33
+#: includes/class-woo-wallet-frontend.php:148
+msgid "ID"
+msgstr "ID"
+
+#: includes/admin/class-woo-wallet-balance-details.php:305
+#: includes/admin/class-woo-wallet-transaction-details.php:106
+#: includes/class-woo-wallet-admin.php:326
+#: includes/class-woo-wallet-frontend.php:149
+msgid "Credit"
+msgstr "Crédito"
+
+#: includes/admin/class-woo-wallet-balance-details.php:306
+#: includes/admin/class-woo-wallet-transaction-details.php:106
+#: includes/class-woo-wallet-admin.php:326
+#: includes/class-woo-wallet-frontend.php:150
+msgid "Debit"
+msgstr "Débito"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:31
+#: includes/class-woo-wallet-frontend.php:151
+msgid "Details"
+msgstr "Detalhes"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:32
+#: includes/class-woo-wallet-frontend.php:152
+msgid "Date"
+msgstr "Data"
+
+#: templates/mini-wallet.php:21 includes/class-woo-wallet-frontend.php:752
+msgid "Current wallet balance"
+msgstr "Saldo atual da carteira"
+
+#: includes/class-woo-wallet-frontend.php:208
+msgid "Account details"
+msgstr "Detalhes da Conta"
+
+#: includes/class-woo-wallet-frontend.php:209
+msgid "Logout"
+msgstr "Desconectar"
+
+#: includes/class-woo-wallet-admin.php:452
+#: includes/class-woo-wallet-admin.php:553
+msgid "Cashback"
+msgstr "Devolução de Fundos"
+
+#: includes/class-woo-wallet-settings.php:30
+#: includes/class-woo-wallet-settings.php:267 includes/class-woo-wallet.php:227
+msgid "Settings"
+msgstr "Configurações"
+
+#: includes/class-woo-wallet-payment-method.php:47
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp.php:36
+#: includes/marketplace/wc-merketplace/class-woo-wallet-wcmp.php:41
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:55
+#: includes/marketplace/wcfmmp/class-woo-wallet-wcfmmp-gateway.php:24
+msgid "Wallet"
+msgstr "Carteira"
+
+#: includes/class-woo-wallet-payment-method.php:48
+msgid "Have your customers pay with wallet."
+msgstr "Faça com que seus clientes paguem usando a carteira."
+
+#: includes/class-woo-wallet-payment-method.php:58
+#: includes/actions/class-woo-wallet-action-new-registration.php:26
+#: includes/actions/class-woo-wallet-action-daily-visits.php:27
+#: includes/actions/class-woo-wallet-action-referrals.php:32
+#: includes/actions/class-woo-wallet-action-product-review.php:32
+#: includes/emails/class-woo-wallet-email-new-transaction.php:125
+msgid "Enable/Disable"
+msgstr "Habilitar/Desabilitar"
+
+#: includes/class-woo-wallet-payment-method.php:59
+msgid "Enable wallet payments"
+msgstr "Habilitar pagamentos com carteira"
+
+#: includes/class-woo-wallet-payment-method.php:65
+msgid "Title"
+msgstr "Título"
+
+#: includes/class-woo-wallet-payment-method.php:74
+msgid "Payment method description that the customer will see on your checkout."
+msgstr "Descrição do método de pagamento, que o cliente verá na saída de pagamento a você."
+
+#: includes/class-woo-wallet-payment-method.php:68
+msgid "Wallet payment"
+msgstr "Pagamento por carteira"
+
+#: includes/class-woo-wallet-payment-method.php:72
+#: includes/admin/class-woo-wallet-balance-details.php:184
+#: includes/actions/class-woo-wallet-action-new-registration.php:39
+#: includes/actions/class-woo-wallet-action-daily-visits.php:49
+#: includes/actions/class-woo-wallet-action-referrals.php:62
+#: includes/actions/class-woo-wallet-action-referrals.php:93
+#: includes/actions/class-woo-wallet-action-product-review.php:45
+#: includes/class-woo-wallet-admin.php:207
+#: includes/class-woo-wallet-admin.php:337
+msgid "Description"
+msgstr "Descrição"
+
+#: includes/class-woo-wallet-payment-method.php:75
+#: includes/class-woo-wallet-payment-method.php:82
+msgid "Pay with wallet."
+msgstr "Pagar com carteira."
+
+#: includes/class-woo-wallet-payment-method.php:79
+msgid "Instructions"
+msgstr "Instruções"
+
+#: includes/class-woo-wallet-payment-method.php:81
+msgid "Instructions that will be added to the thank you page."
+msgstr "Instruções que serão adicionadas à página de obrigado."
+
+#: includes/class-woo-wallet-admin.php:309
+#: includes/class-woo-wallet-admin.php:363
+msgid "Current wallet balance: "
+msgstr "Saldo Atual da Carteira: "
+
+#: templates/wc-endpoint-wallet.php:86
+#: includes/admin/class-woo-wallet-balance-details.php:183
+#: includes/admin/class-woo-wallet-transaction-details.php:30
+#: includes/actions/class-woo-wallet-action-new-registration.php:32
+#: includes/actions/class-woo-wallet-action-daily-visits.php:33
+#: includes/actions/class-woo-wallet-action-referrals.php:44
+#: includes/actions/class-woo-wallet-action-referrals.php:75
+#: includes/actions/class-woo-wallet-action-product-review.php:38
+#: includes/class-woo-wallet-admin.php:317
+msgid "Amount"
+msgstr "Quantia"
+
+#: includes/admin/class-woo-wallet-transaction-details.php:29
+#: includes/class-woo-wallet-admin.php:324
+msgid "Type"
+msgstr "Tipo"
+
+#: includes/class-woo-wallet-admin.php:362
+msgid "Transaction details"
+msgstr "Detalhes de Transação"
+
+#: includes/class-woo-wallet-settings.php:196
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:213
+#: includes/class-woo-wallet-admin.php:471
+#: includes/class-woo-wallet-admin.php:512
+#: includes/class-woo-wallet-admin.php:661
+#: includes/class-woo-wallet-admin.php:682
+msgid "Cashback type"
+msgstr "Tipo de devolução de fundos"
+
+#: includes/class-woo-wallet-settings.php:197
+#: includes/class-woo-wallet-admin.php:472
+msgid "Select cashback type percentage or fixed"
+msgstr "Selecione se o tipo de devolução de fundos será por percentagem ou fixo"
+
+#: includes/class-woo-wallet-settings.php:158
+#: includes/class-woo-wallet-settings.php:199
+#: includes/class-woo-wallet-settings.php:241
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:217
+#: includes/class-woo-wallet-admin.php:473
+#: includes/class-woo-wallet-admin.php:513
+#: includes/class-woo-wallet-admin.php:664
+#: includes/class-woo-wallet-admin.php:686
+msgid "Fixed"
+msgstr "Fixo"
+
+#: includes/class-woo-wallet-frontend.php:503
+msgid "Via wallet"
+msgstr "Por Carteira"
+
+#: includes/class-woo-wallet-admin.php:599
+msgid "WooCommerce Wallet"
+msgstr "WooCommerce Wallet"
+
+#: includes/class-woo-wallet-ajax.php:90
+msgid "Invalid refund amount"
+msgstr "Quantia de reembolso inválida"
+
+#: includes/class-woo-wallet-payment-method.php:153
+#: includes/class-woo-wallet-ajax.php:120
+msgid "Refund not credited to customer"
+msgstr "O reembolso não foi creditado ao cliente"
+
+#: includes/class-woo-wallet-settings.php:81
+msgid "General"
+msgstr "Geral"
+
+#: includes/class-woo-wallet-settings.php:103
+msgid "Rechargeable Product Title"
+msgstr "Título de Produto Recarregável"
+
+#: includes/class-woo-wallet-settings.php:172
+msgid "Cashback Reward Program"
+msgstr "Programa de Recompensas de Devolução de Fundos"
+
+#: includes/class-woo-wallet-settings.php:173
+msgid "Run cashback reward program on your store"
+msgstr "Rodar o programa de recompensas de devolução de fundos em sua loja"
+
+#: includes/class-woo-wallet-settings.php:188
+msgid "Cashback Rule"
+msgstr "Regras para Devolução de Fundos"
+
+#: includes/class-woo-wallet-settings.php:189
+msgid "Select Cashback Rule cart or product wise"
+msgstr "Selecione a regra para devolução de fundos referente ao carrinho ou ao produto"
+
+#: includes/class-woo-wallet-settings.php:191
+msgid "Cart wise"
+msgstr "Referente ao Carrinho"
+
+#: includes/class-woo-wallet-settings.php:191
+msgid "Product wise"
+msgstr "Referente ao Produto"
+
+#: includes/class-woo-wallet-settings.php:232
+msgid "Payment gateway charge"
+msgstr "Cobrança para gateway de pagamento"
+
+#: includes/class-woo-wallet-settings.php:238
+msgid "Charge type"
+msgstr "Tipo de cobrança"
+
+#: includes/class-woo-wallet-settings.php:285
+#: includes/class-woo-wallet-settings.php:311
+msgid "(no title)"
+msgstr "(sem título)"
+
+#: includes/class-woo-wallet-settings.php:290
+msgid "Enter gateway charge amount for "
+msgstr "Coloque a quantia de cobrança a gateway para "
+
+#: includes/admin/class-woo-wallet-balance-details.php:23
+#: includes/admin/class-woo-wallet-transaction-details.php:28
+msgid "Name"
+msgstr "Nome"
+
+#: includes/admin/class-woo-wallet-balance-details.php:22
+msgid "Username"
+msgstr "Nome de Usuário"
+
+#: includes/admin/class-woo-wallet-balance-details.php:25
+msgid "Remaining balance"
+msgstr "Saldo Restante"
+
+#: includes/admin/class-woo-wallet-balance-details.php:26
+#: includes/class-woo-wallet-admin.php:161
+msgid "Actions"
+msgstr "Ações"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:47
+msgid "Thank you for using wallet"
+msgstr "Obrigado por usar a carteira"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:127
+msgid "Enable this email notification"
+msgstr "Habilitar essa notificação por email"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:131
+msgid "Subject"
+msgstr "Assunto"
+
+#. translators: %s: list of placeholders
+#: includes/emails/class-woo-wallet-email-new-transaction.php:135
+#: includes/emails/class-woo-wallet-email-new-transaction.php:144
+msgid "Available placeholders: %s"
+msgstr "Espaços reservados disponíveis: %s"
+
+#: templates/woo-wallet-partial-payment.php:32
+#: templates/woo-wallet-partial-payment.php:33
+msgid "Pay by wallet"
+msgstr "Pagar usando a carteira"
+
+#: includes/class-woo-wallet-admin.php:412
+msgid "Please enter amount"
+msgstr "Por favor coloque a quantia"
+
+#: includes/class-woo-wallet-settings.php:158
+#: includes/class-woo-wallet-settings.php:199
+#: includes/class-woo-wallet-settings.php:241
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:216
+#: includes/class-woo-wallet-admin.php:473
+#: includes/class-woo-wallet-admin.php:513
+#: includes/class-woo-wallet-admin.php:663
+#: includes/class-woo-wallet-admin.php:685
+msgid "Percentage"
+msgstr "Porcentagem"
+
+#: includes/class-woo-wallet-settings.php:204
+#: includes/marketplace/dokan/class-woo-wallet-dokan.php:223
+#: includes/class-woo-wallet-admin.php:481
+#: includes/class-woo-wallet-admin.php:526
+#: includes/class-woo-wallet-admin.php:668
+#: includes/class-woo-wallet-admin.php:691
+msgid "Cashback Amount"
+msgstr "Quantia da Devolução de Fundos"
+
+#: includes/class-woo-wallet-settings.php:205
+#: includes/class-woo-wallet-admin.php:482
+msgid "Enter cashback amount"
+msgstr "Coloque a quantia de devolução de fundos"
+
+#: includes/class-woo-wallet-settings.php:104
+msgid "Enter wallet rechargeable product title"
+msgstr "Coloque o título para o produto recarregável da carteira"
+
+#: includes/admin/class-woo-wallet-balance-details.php:24
+msgid "Email"
+msgstr "E-mail"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:16
+msgid "New wallet transaction"
+msgstr "Nova transação da carteira"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:140
+msgid "Email heading"
+msgstr "Cabeçalho de e-mail"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:149
+msgid "Email type"
+msgstr "Tipo de e-mail"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:151
+msgid "Choose which format of email to send."
+msgstr "Escolher qual formato de e-mail será enviado."
+
+#: templates/wc-endpoint-wallet.php:65 includes/class-woo-wallet-widgets.php:53
+msgid "Enter amount"
+msgstr "Adicione a quantia"
+
+#: includes/class-woo-wallet-admin.php:284
+msgid "Users wallet details"
+msgstr "Detalhes da carteira dos usuários"
+
+#: includes/class-woo-wallet-admin.php:340
+msgid "Enter Description"
+msgstr "Adicione a descrição"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:37
+msgid "Your {site_title} wallet transaction from {transaction_date}"
+msgstr "Seu {site_title} transação da carteira de {transaction_date}"
+
+#: includes/emails/class-woo-wallet-email-new-transaction.php:17
+msgid "New wallet transaction emails are sent to user when a wallet transaction received."
+msgstr "E-mails sobre novas transações serão enviados ao usuário quando uma transação de carteira é recebida."
+
+#: includes/class-woo-wallet-settings-api.php:396
+#: includes/class-woo-wallet-settings-api.php:415
+msgid "Choose File"
+msgstr "Escolher arquivo"
+
+#: includes/class-woo-wallet-settings.php:239
+msgid "Select gateway charge type percentage or fixed"
+msgstr "Selecionar tipo de cobrança para gateway em porcentagem ou fixo"
+
+#: includes/class-woo-wallet-settings.php:316
+msgid "Allow this gateway for recharge wallet"
+msgstr "Permitir que esse gateway faça recarga da carteira"
+
+#: includes/class-woo-wallet-settings.php:233
+msgid "Charge customer when they add balance to their wallet?"
+msgstr "Cobrar cliente quando eles adicionam saldo à sua carteira?"
+
+#: templates/emails/user-new-transaction.php:29
+#: templates/emails/plain/user-new-transaction.php:27
+msgid "has been debited from your wallet."
+msgstr "foi debitado da sua carteira."
+
+#: includes/class-woo-wallet.php:369
+msgid "WooCommerce Wallet plugin requires <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> plugins to be active!"
+msgstr "O plugin WooCommerce Wallet requer que o <a href=\"https://wordpress.org/plugins/woocommerce/\">WooCommerce</a> esteja ativo!"
+
+#: includes/class-woo-wallet-frontend.php:438
+msgid "You can not add another product while your cart contains with wallet rechargeable product."
+msgstr "Você não pode adicionar outro produto enquanto o carrinho estiver com o produto de recarga de carteira."
